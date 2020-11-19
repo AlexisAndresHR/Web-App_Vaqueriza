@@ -10,3 +10,7 @@ Aplicación web para e-commerce en el sector ganadero.
 ### Tecnologías utilizadas
  - Desarrollada en ***PHP*** a través del framework ***Laravel***.
  - Base de datos no relacional con ***MongoDB***.
+
+
+### URL para ver en funcionamiento
+[https://desarrollo-vaqueriza.herokuapp.com/index]

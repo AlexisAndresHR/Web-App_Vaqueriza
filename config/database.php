@@ -107,13 +107,24 @@ return [
                 'database' => 'styde' // sets the authentication database required by mongo 3
             ]
         ],*/
-        'mongodb' => [
+        /*'mongodb' => [
             'driver' => 'mongodb',
             'dsn'=>'mongodb://dbvaqueriza:V4qu3r1z4@ds029595.mlab.com:29595/heroku_6tkmpqcp',
             'database' => 'heroku_6tkmpqcp',
             'options' => [
                 //'database' => env(''),
                 'retryWrites' => false,
+                //'w' => 'majority'
+            ],
+        ],*/
+        // Modificación por cambio de alojamiento de la BD
+        'mongodb' => [
+            'driver' => 'mongodb',
+            'dsn'=>'mongodb+srv://alexis_v:alex_admin01@cluster0.vdl5b.mongodb.net/BD_VAQUERIZA?retryWrites=true&w=majority',
+            'database' => 'BD_VAQUERIZA',
+            'options' => [
+                //'database' => env(''),
+                //'retryWrites' => false,
                 //'w' => 'majority'
             ],
         ],
